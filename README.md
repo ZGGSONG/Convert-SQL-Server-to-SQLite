@@ -14,7 +14,7 @@ Thanks Liron!
 
 # Update
 
-ÐÞ¸ÄÁ¬½Ó×Ö·û´® `BinaryGUID=false;`
+ä¿®æ”¹è¿žæŽ¥å­—ç¬¦ä¸² `BinaryGUID=false;`
 
 - https://www.cnblogs.com/yhnet/articles/14980494.html
 - https://www.cnblogs.com/CSharpLover/p/5193700.html

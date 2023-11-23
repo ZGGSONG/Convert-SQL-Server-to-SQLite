@@ -1261,6 +1261,7 @@ namespace DbAccess
         /// Creates SQLite connection string from the specified DB file path.
         /// </summary>
         /// <param name="sqlitePath">The path to the SQLite database file.</param>
+        /// <remarks>修复连接字符串指定GUID存储为文本：https://www.cnblogs.com/CSharpLover/p/5193700.html</remarks>
         /// <returns>SQLite connection string</returns>
         private static string CreateSQLiteConnectionString(string sqlitePath, string password)
         {
@@ -1268,10 +1269,11 @@ namespace DbAccess
             builder.DataSource = sqlitePath;
             if (password != null)
                 builder.Password = password;
-            builder.PageSize = 4096;
-            builder.UseUTF16Encoding = true;
+            //builder.PageSize = 4096;
+            //builder.UseUTF16Encoding = true;
+            builder.BinaryGUID = false;//默认GUID为二进制存储
             string connstring = builder.ConnectionString;
-        
+
             return connstring;
         }
         #endregion

@@ -10,3 +10,11 @@ This project was placed in the public domain, so I've forked it on GitHub and ma
 There's probably other minor additions to be made to the project, but those two changes got me what I needed for now.
 
 Thanks Liron!
+
+
+# Update
+
+ÐÞ¸ÄÁ¬½Ó×Ö·û´® `BinaryGUID=false;`
+
+- https://www.cnblogs.com/yhnet/articles/14980494.html
+- https://www.cnblogs.com/CSharpLover/p/5193700.html
